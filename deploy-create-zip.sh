@@ -8,8 +8,11 @@ npm run build
 cd ..
 
 xcopy //E //I //Y "web\build\*" "server\web\*"
-rm web -rf
 
 cd server
 npm install --production
-node src/app.js
+zip pixerva-deploy.zip -r *
+
+cd ..\\..
+mv pixerva\\server\\pixerva-deploy.zip pixerva-deploy.zip
+rm pixerva -rf

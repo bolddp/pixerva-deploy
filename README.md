@@ -8,7 +8,7 @@ Prerequisites:
 
 ## Installation
 
-Create an installation folder named `pixerva` where you want to install the application
+Open a terminal where you want the installation to be installed in a subfolder called `pixerva`.
 
 Open a terminal in that folder and type the following
 
