@@ -1,4 +1,10 @@
+cp -R pixerva/server/prod prod-backup
+rm pixerva -rf
+
 git clone https://github.com/bolddp/pixerva.git
+# Move backup back in place
+mv prod-backup pixerva/server/prod
+
 cd pixerva
 
 # Build web
