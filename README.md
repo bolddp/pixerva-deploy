@@ -24,7 +24,7 @@ Wait a few minutes for the installation to finish and then the Pixerva server sh
 
 Stop the server and then type
 ```
-sh update-pixerva.sh
+sh update.sh
 ```
 
 After a few minutes the server should've updated and will be available at http://localhost:8080
